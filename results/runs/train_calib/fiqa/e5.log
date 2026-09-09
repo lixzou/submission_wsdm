@@ -1,0 +1,2 @@
+e5: train 3000 queries, test 6648
+  keep=0.5 {'reco': 0.418, 'pq': 0.386, 'opq': 0.2799, 'itq': 0.2147, 'scalar': 0.2274, 'tq': 0.2332}

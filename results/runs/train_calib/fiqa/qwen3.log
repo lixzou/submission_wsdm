@@ -1,0 +1,5 @@
+qwen3: train 3000 queries, test 6648
+  keep=0.5 {'reco': 0.475, 'pq': 0.4606, 'opq': 0.4095, 'itq': 0.3765, 'scalar': 0.3963, 'tq': 0.4203}
+  keep=0.75 {'reco': 0.4761, 'pq': 0.4592, 'opq': 0.4379, 'itq': 0.3879, 'scalar': 0.4395, 'tq': 0.4518}
+  keep=0.875 {'reco': 0.4739, 'pq': 0.4652, 'opq': 0.4497, 'itq': 0.3903, 'scalar': 0.4435, 'tq': 0.4598}
+SAVED /ssd1/zoulixin/tencent_previous_compression/experiments/baseline/gap_results/train_calib/fiqa/qwen3.json

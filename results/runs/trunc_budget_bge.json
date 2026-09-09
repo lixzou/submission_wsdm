@@ -1,0 +1,18 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "bge",
+ "d": 768,
+ "reference": 0.8652,
+ "32x_keep0.125_prefix_B8": 0.7678,
+ "32x_keep0.125_perm_B8": 0.7932,
+ "32x_keep0.25_prefix_B4": 0.8136,
+ "32x_keep0.25_perm_B4": 0.8429,
+ "32x_keep0.5_prefix_B2": 0.8001,
+ "32x_keep0.5_perm_B2": 0.843,
+ "32x_full_B1": 0.8246,
+ "16x_keep0.25_prefix_B8": 0.8246,
+ "16x_keep0.25_perm_B8": 0.8412,
+ "16x_keep0.5_prefix_B4": 0.8412,
+ "16x_keep0.5_perm_B4": 0.8597,
+ "16x_full_B2": 0.8657
+}

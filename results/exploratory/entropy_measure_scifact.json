@@ -1,0 +1,68 @@
+{
+ "e5": {
+  "B=1": {
+   "fixed_bits": 768,
+   "entropy_bits": 387.1,
+   "byte_saving": 0.496
+  },
+  "B=2": {
+   "fixed_bits": 1536,
+   "entropy_bits": 818.0,
+   "byte_saving": 0.4675
+  },
+  "B=4": {
+   "fixed_bits": 3072,
+   "entropy_bits": 1955.8,
+   "byte_saving": 0.3633
+  },
+  "B=8": {
+   "fixed_bits": 6144,
+   "entropy_bits": 4751.9,
+   "byte_saving": 0.2266
+  }
+ },
+ "bge": {
+  "B=1": {
+   "fixed_bits": 768,
+   "entropy_bits": 506.5,
+   "byte_saving": 0.3405
+  },
+  "B=2": {
+   "fixed_bits": 1536,
+   "entropy_bits": 1054.1,
+   "byte_saving": 0.3137
+  },
+  "B=4": {
+   "fixed_bits": 3072,
+   "entropy_bits": 2296.3,
+   "byte_saving": 0.2525
+  },
+  "B=8": {
+   "fixed_bits": 6144,
+   "entropy_bits": 5125.0,
+   "byte_saving": 0.1659
+  }
+ },
+ "mini": {
+  "B=1": {
+   "fixed_bits": 384,
+   "entropy_bits": 359.5,
+   "byte_saving": 0.0638
+  },
+  "B=2": {
+   "fixed_bits": 768,
+   "entropy_bits": 694.8,
+   "byte_saving": 0.0953
+  },
+  "B=4": {
+   "fixed_bits": 1536,
+   "entropy_bits": 1345.0,
+   "byte_saving": 0.1243
+  },
+  "B=8": {
+   "fixed_bits": 3072,
+   "entropy_bits": 2780.8,
+   "byte_saving": 0.0948
+  }
+ }
+}

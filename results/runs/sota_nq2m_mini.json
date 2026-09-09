@@ -1,0 +1,7 @@
+{
+ "model": "mini",
+ "reference": 0.5915,
+ "rpc_50_calibB2": 0.5541,
+ "pq_M": 0.5654,
+ "delta_pp": -1.1
+}

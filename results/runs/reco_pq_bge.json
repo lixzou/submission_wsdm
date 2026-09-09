@@ -1,0 +1,13 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "bge",
+ "d": 768,
+ "reference": 0.8652,
+ "perm_0.5_pqM96": 0.8636,
+ "pfx_0.5_pqM96": 0.8424,
+ "full_pqM192": 0.8596,
+ "perm_0.25_pqM48": 0.8539,
+ "pfx_0.25_pqM48": 0.8051,
+ "perm_0.125_pqM24": 0.7892,
+ "pfx_0.125_pqM24": 0.7528
+}

@@ -1,0 +1,18 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "e5",
+ "d": 768,
+ "reference": 0.8369,
+ "keep=0.125_prefix_pipeline_recall": 0.1334,
+ "keep=0.125_prefix_pipeline_bytes": 5.6,
+ "keep=0.125_perm_pipeline_recall": 0.4434,
+ "keep=0.125_perm_pipeline_bytes": 10.1,
+ "keep=0.25_prefix_pipeline_recall": 0.3313,
+ "keep=0.25_prefix_pipeline_bytes": 12.4,
+ "keep=0.25_perm_pipeline_recall": 0.58,
+ "keep=0.25_perm_pipeline_bytes": 17.8,
+ "keep=0.125_perm_pq_M8_recall": 0.5617,
+ "keep=0.125_perm_lsq_M8_recall": 0.6738,
+ "keep=0.25_perm_pq_M16_recall": 0.6845,
+ "keep=0.25_perm_lsq_M16_recall": 0.7951
+}

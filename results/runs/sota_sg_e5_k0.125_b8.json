@@ -1,0 +1,11 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "e5",
+ "d": 768,
+ "keep": 0.125,
+ "B": 8,
+ "reference": 0.8369,
+ "perm_calibB8": 0.6239,
+ "sg_calibB8": 0.7704,
+ "pq_M96": 0.8378
+}

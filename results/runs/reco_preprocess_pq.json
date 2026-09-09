@@ -1,0 +1,47 @@
+{
+  "e5": {
+    "d_full": 768,
+    "d_trunc": 384,
+    "reference": 0.8369,
+    "M48": {
+      "pq_full": 0.8043,
+      "pq_reco": 0.7744,
+      "pq_delta": -0.0298
+    },
+    "M24": {
+      "pq_full": 0.7175,
+      "pq_reco": 0.7208,
+      "pq_delta": 0.0033
+    }
+  },
+  "bge": {
+    "d_full": 768,
+    "d_trunc": 384,
+    "reference": 0.8652,
+    "M48": {
+      "pq_full": 0.8303,
+      "pq_reco": 0.8326,
+      "pq_delta": 0.0022
+    },
+    "M24": {
+      "pq_full": 0.7596,
+      "pq_reco": 0.7958,
+      "pq_delta": 0.0362
+    }
+  },
+  "mini": {
+    "d_full": 384,
+    "d_trunc": 192,
+    "reference": 0.7867,
+    "M48": {
+      "pq_full": 0.7571,
+      "pq_reco": 0.768,
+      "pq_delta": 0.0109
+    },
+    "M24": {
+      "pq_full": 0.7166,
+      "pq_reco": 0.7484,
+      "pq_delta": 0.0319
+    }
+  }
+}

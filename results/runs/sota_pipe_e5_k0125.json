@@ -1,0 +1,9 @@
+{
+ "ds_dir": "/ssd1/zoulixin/tencent_previous_compression/experiments/baseline/data/beir/scifact",
+ "model": "e5",
+ "d": 768,
+ "reference": 0.8369,
+ "prefix_0.125_calibB8": 0.5471,
+ "perm_0.125_calibB8": 0.6239,
+ "pq_M96": 0.8378
+}

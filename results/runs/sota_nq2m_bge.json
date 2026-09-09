@@ -1,0 +1,7 @@
+{
+ "model": "bge",
+ "reference": 0.6423,
+ "rpc_50_calibB2": 0.6211,
+ "pq_M": 0.6299,
+ "delta_pp": -0.9
+}

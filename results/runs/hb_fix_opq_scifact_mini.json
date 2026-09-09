@@ -1,0 +1,8 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "mini",
+ "d": 384,
+ "reference": 0.7867,
+ "opq_M192_n8": 0.7867,
+ "opq_M96_n8": 0.7722
+}

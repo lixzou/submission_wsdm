@@ -1,0 +1,18 @@
+{
+ "reference": 0.8369444444444445,
+ "avg=4": {
+  "uniform": 0.8484,
+  "margin_tilt": 0.7424,
+  "var_tilt": 0.7448
+ },
+ "avg=2": {
+  "uniform": 0.7641,
+  "margin_tilt": 0.4595,
+  "var_tilt": 0.4776
+ },
+ "avg=1": {
+  "uniform": 0.7307,
+  "margin_tilt": 0.7307,
+  "var_tilt": 0.7307
+ }
+}

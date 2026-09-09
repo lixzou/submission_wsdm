@@ -1,0 +1,29 @@
+{
+ "e5": {
+  "ref": 0.6517,
+  "pq_m8": {
+   "recall": 0.0397,
+   "codebook_centroids": 2048,
+   "corpus": 2000000,
+   "sec": 54.2
+  },
+  "pq_m16": {
+   "recall": 0.1982,
+   "codebook_centroids": 4096,
+   "corpus": 2000000,
+   "sec": 70.6
+  },
+  "pq_m48": {
+   "recall": 0.5553,
+   "codebook_centroids": 12288,
+   "corpus": 2000000,
+   "sec": 102.5
+  },
+  "pq_m96": {
+   "recall": 0.6007,
+   "codebook_centroids": 24576,
+   "corpus": 2000000,
+   "sec": 85.1
+  }
+ }
+}

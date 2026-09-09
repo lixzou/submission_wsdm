@@ -1,0 +1,9 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "bge",
+ "d": 768,
+ "reference": 0.8652,
+ "prefix_0.5_calibB2": 0.8429,
+ "perm_0.5_calibB2": 0.8536,
+ "pq_M96": 0.858
+}

@@ -1,0 +1,20 @@
+{
+ "calib_ds": "data/beir/scifact",
+ "eval_ds": "data/beir_big/nq",
+ "model": "e5",
+ "keep=0.500": {
+  "prefix": 0.5267477790652761,
+  "perm_calib": 0.4652858246427192,
+  "perm_eval": 0.4976825028968714
+ },
+ "keep=0.250": {
+  "prefix": 0.2927771340285824,
+  "perm_calib": 0.3102790652761684,
+  "perm_eval": 0.4193462726921591
+ },
+ "keep=0.125": {
+  "prefix": 0.0783603707995365,
+  "perm_calib": 0.1475714561606798,
+  "perm_eval": 0.3188248358439552
+ }
+}

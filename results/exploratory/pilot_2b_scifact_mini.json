@@ -1,0 +1,21 @@
+{
+ "reference": 0.7866666666666666,
+ "avg_bits=4": {
+  "uniform": 0.79,
+  "margin_block": 0.7416,
+  "var_block": 0.7456,
+  "ratc_bucket": 0.741
+ },
+ "avg_bits=2": {
+  "uniform": 0.7838,
+  "margin_block": 0.6263,
+  "var_block": 0.6331,
+  "ratc_bucket": 0.6155
+ },
+ "avg_bits=1": {
+  "uniform": 0.7699,
+  "margin_block": 0.6787,
+  "var_block": 0.6732,
+  "ratc_bucket": 0.5432
+ }
+}

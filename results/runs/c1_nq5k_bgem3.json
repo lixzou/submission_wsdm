@@ -1,0 +1,16 @@
+{
+ "ds_dir": "/ssd1/zoulixin/tencent_previous_compression/experiments/baseline/data/beir_big/nq",
+ "model": "bgem3",
+ "n_docs": 5000,
+ "reference_full": 0.9609,
+ "keep=0.25": {
+  "prefix": 0.8699494949494949,
+  "perm_margin": 0.9255050505050504,
+  "pca": 0.9318181818181818
+ },
+ "keep=0.125": {
+  "prefix": 0.803030303030303,
+  "perm_margin": 0.8762626262626262,
+  "pca": 0.9393939393939394
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "bgem3",
+ "d": 1024,
+ "reference": 0.751,
+ "keep=0.500": {
+  "calib_grid": 0.7426,
+  "uniform_grid": 0.7032
+ },
+ "keep=0.750": {
+  "calib_grid": 0.7599,
+  "uniform_grid": 0.7182
+ },
+ "keep=0.875": {
+  "calib_grid": 0.7399,
+  "uniform_grid": 0.7303
+ }
+}

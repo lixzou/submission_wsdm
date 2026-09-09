@@ -1,0 +1,18 @@
+{
+ "ds_dir": "data/beir/nfcorpus",
+ "model": "e5",
+ "d": 768,
+ "reference": 0.1664,
+ "keep=0.500": {
+  "calib_grid": 0.165,
+  "uniform_grid": 0.1614
+ },
+ "keep=0.750": {
+  "calib_grid": 0.1613,
+  "uniform_grid": 0.1529
+ },
+ "keep=0.875": {
+  "calib_grid": 0.1653,
+  "uniform_grid": 0.1592
+ }
+}

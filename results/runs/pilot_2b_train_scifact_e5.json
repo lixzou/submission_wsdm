@@ -1,0 +1,23 @@
+{
+ "reference": 0.8369444444444445,
+ "calib": "train",
+ "n_cal": 809,
+ "avg_bits=4": {
+  "uniform": 0.8394,
+  "margin_block": 0.7928,
+  "var_block": 0.7568,
+  "ratc_bucket": 0.7719
+ },
+ "avg_bits=2": {
+  "uniform": 0.7772,
+  "margin_block": 0.6857,
+  "var_block": 0.6696,
+  "ratc_bucket": 0.6487
+ },
+ "avg_bits=1": {
+  "uniform": 0.7307,
+  "margin_block": 0.4291,
+  "var_block": 0.4521,
+  "ratc_bucket": 0.4822
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "ds_dir": "data/beir/fiqa",
+ "model": "qwen3",
+ "d": 1024,
+ "reference": 0.4721,
+ "keep=0.500": {
+  "calib_grid": 0.475,
+  "uniform_grid": 0.4251
+ },
+ "keep=0.750": {
+  "calib_grid": 0.4761,
+  "uniform_grid": 0.4567
+ },
+ "keep=0.875": {
+  "calib_grid": 0.4739,
+  "uniform_grid": 0.4494
+ }
+}

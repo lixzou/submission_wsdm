@@ -1,0 +1,24 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "mini",
+ "d": 384,
+ "reference": 0.7867,
+ "keep=0.875": {
+  "random_rot": 0.7743333333333333,
+  "impw_pca_p0.5": 0.79,
+  "impw_pca_p1.0": 0.79,
+  "impw_pca_p2.0": 0.7933333333333333
+ },
+ "keep=0.750": {
+  "random_rot": 0.7643333333333334,
+  "impw_pca_p0.5": 0.79,
+  "impw_pca_p1.0": 0.79,
+  "impw_pca_p2.0": 0.7866666666666666
+ },
+ "keep=0.500": {
+  "random_rot": 0.7202222222222222,
+  "impw_pca_p0.5": 0.786,
+  "impw_pca_p1.0": 0.7866666666666666,
+  "impw_pca_p2.0": 0.7833333333333333
+ }
+}

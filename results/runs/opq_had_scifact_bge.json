@@ -1,0 +1,8 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "bge",
+ "note": "random Hadamard rotation + PQ (OPQ approximation)",
+ "OPQh_m48": 0.8231111111111111,
+ "OPQh_m96": 0.8425555555555555,
+ "OPQh_m192": 0.8595555555555556
+}

@@ -1,0 +1,22 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "e5",
+ "d": 768,
+ "reference": 0.8369,
+ "protocol": "TurboQuant (2504.19874): random rotation + per-coordinate Lloyd-Max on Beta coordinates + entropy",
+ "B=1": {
+  "recall": 0.7251,
+  "entropy_bits": 387.9,
+  "byte_saving": 0.4949
+ },
+ "B=2": {
+  "recall": 0.8061,
+  "entropy_bits": 826.7,
+  "byte_saving": 0.4618
+ },
+ "B=4": {
+  "recall": 0.8381,
+  "entropy_bits": 2088.2,
+  "byte_saving": 0.3202
+ }
+}

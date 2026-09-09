@@ -1,0 +1,22 @@
+{
+ "ds_dir": "data/beir_big/nq",
+ "model": "bge",
+ "d": 768,
+ "reference": 0.2373,
+ "protocol": "TurboQuant (2504.19874): random rotation + per-coordinate Lloyd-Max on Beta coordinates + entropy",
+ "B=1": {
+  "recall": 0.233,
+  "entropy_bits": 595.4,
+  "byte_saving": 0.2247
+ },
+ "B=2": {
+  "recall": 0.236,
+  "entropy_bits": 1214.3,
+  "byte_saving": 0.2094
+ },
+ "B=4": {
+  "recall": 0.2393,
+  "entropy_bits": 2596.3,
+  "byte_saving": 0.1548
+ }
+}

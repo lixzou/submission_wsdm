@@ -1,0 +1,5 @@
+{
+ "model": "bge",
+ "reference": 0.8652,
+ "perm50_centered_calib_sweep": 0.8536
+}

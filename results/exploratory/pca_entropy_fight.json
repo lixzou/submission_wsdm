@@ -1,0 +1,29 @@
+{
+ "e5": {
+  "ref": 0.8369,
+  "B=1": {
+   "pca_recall": 0.4265,
+   "pca_entropy_bits": 767.9,
+   "pca_entropy_saving_pct": 0.0,
+   "rand_recall": 0.7251,
+   "rand_entropy_bits": 387.9,
+   "rand_entropy_saving_pct": 49.5
+  },
+  "B=2": {
+   "pca_recall": 0.7237,
+   "pca_entropy_bits": 1086.6,
+   "pca_entropy_saving_pct": 29.3,
+   "rand_recall": 0.7936,
+   "rand_entropy_bits": 820.6,
+   "rand_entropy_saving_pct": 46.6
+  },
+  "B=4": {
+   "pca_recall": 0.8032,
+   "pca_entropy_bits": 1569.1,
+   "pca_entropy_saving_pct": 48.9,
+   "rand_recall": 0.8381,
+   "rand_entropy_bits": 1955.8,
+   "rand_entropy_saving_pct": 36.3
+  }
+ }
+}

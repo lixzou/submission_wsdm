@@ -1,0 +1,18 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "e5",
+ "d": 768,
+ "reference": 0.8369,
+ "keep=0.25_prefix_raw": 0.7249,
+ "keep=0.25_prefix_quant": 0.3313,
+ "keep=0.25_perm_raw": 0.7695,
+ "keep=0.25_perm_quant": 0.6036,
+ "keep=0.25_pca_raw": 0.8149,
+ "keep=0.25_pca_quant": 0.7331,
+ "keep=0.125_prefix_raw": 0.5471,
+ "keep=0.125_prefix_quant": 0.1334,
+ "keep=0.125_perm_raw": 0.6378,
+ "keep=0.125_perm_quant": 0.3971,
+ "keep=0.125_pca_raw": 0.7588,
+ "keep=0.125_pca_quant": 0.5876
+}

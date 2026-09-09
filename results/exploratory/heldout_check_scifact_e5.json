@@ -1,0 +1,9 @@
+{
+ "heldout_30pct": {
+  "n_queries": 90,
+  "ref": 0.8444,
+  "prefix": 0.1324,
+  "perm": 0.4685,
+  "delta_pp": 33.6
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "keep=0.500": {
+  "pca_var": 0.8092,
+  "pca_margin": 0.8071
+ },
+ "keep=0.250": {
+  "pca_var": 0.7754,
+  "pca_margin": 0.8008
+ },
+ "keep=0.125": {
+  "pca_var": 0.7033,
+  "pca_margin": 0.7282
+ }
+}

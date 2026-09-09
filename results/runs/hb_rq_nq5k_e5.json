@@ -1,0 +1,8 @@
+{
+ "ds_dir": "data/beir_big/nq",
+ "model": "e5",
+ "d": 768,
+ "reference": 0.241,
+ "rq_M48_n8": 0.241,
+ "rq_M24_n8": 0.24
+}

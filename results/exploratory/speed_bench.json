@@ -1,0 +1,28 @@
+{
+ "scifact": {
+  "e5": {
+   "float32_dot": 0.031,
+   "pq_m8_adc_numpy": 0.168,
+   "quant_B4_dot": 0.051,
+   "quant_B2_dot": 0.06,
+   "quant_B1_dot": 0.054,
+   "permutation_reorder": 0.0013,
+   "whitening_dxd": 0.0147,
+   "truncated_dot_12pct": 0.015,
+   "b4_reconstruct_amortized_per_vec_ms": 3.746
+  }
+ },
+ "nq": {
+  "e5": {
+   "float32_dot": 0.288,
+   "pq_m8_adc_numpy": 0.644,
+   "quant_B4_dot": 0.973,
+   "quant_B2_dot": 1.126,
+   "quant_B1_dot": 1.105,
+   "permutation_reorder": 0.0013,
+   "whitening_dxd": 0.0131,
+   "truncated_dot_12pct": 0.1,
+   "b4_reconstruct_amortized_per_vec_ms": 62.445
+  }
+ }
+}

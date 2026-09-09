@@ -1,0 +1,5 @@
+mini: train 3000 queries, test 6648
+  keep=0.5 {'reco': 0.4272, 'pq': 0.3925, 'opq': 0.3763, 'itq': 0.2877, 'scalar': 0.3093, 'tq': 0.3694}
+  keep=0.75 {'reco': 0.4384, 'pq': 0.4237, 'opq': 0.4161, 'itq': 0.3142, 'scalar': 0.3692, 'tq': 0.4126}
+  keep=0.875 {'reco': 0.4324, 'pq': 0.43, 'opq': 0.4247, 'itq': 0.3405, 'scalar': 0.3808, 'tq': 0.4187}
+SAVED /ssd1/zoulixin/tencent_previous_compression/experiments/baseline/gap_results/train_calib/fiqa/mini.json

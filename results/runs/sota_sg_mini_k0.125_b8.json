@@ -1,0 +1,11 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "mini",
+ "d": 384,
+ "keep": 0.125,
+ "B": 8,
+ "reference": 0.7867,
+ "perm_calibB8": 0.6314,
+ "sg_calibB8": 0.6809,
+ "pq_M48": 0.7571
+}

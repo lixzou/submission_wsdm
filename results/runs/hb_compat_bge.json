@@ -1,0 +1,15 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "bge",
+ "d": 768,
+ "reference": 0.8652,
+ "protocol": "truncate(prefix|perm) -> same quantizer (PQ/LSQ) at matched total bytes",
+ "keep=0.25_prefix_pq": 0.7884,
+ "keep=0.25_prefix_lsq": 0.8212,
+ "keep=0.25_perm_pq": 0.8254,
+ "keep=0.25_perm_lsq": 0.8352,
+ "keep=0.125_prefix_pq": 0.7231,
+ "keep=0.125_prefix_lsq": 0.6527,
+ "keep=0.125_perm_pq": 0.7417,
+ "keep=0.125_perm_lsq": 0.6934
+}

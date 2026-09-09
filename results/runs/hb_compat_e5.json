@@ -1,0 +1,15 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "e5",
+ "d": 768,
+ "reference": 0.8369,
+ "protocol": "truncate(prefix|perm) -> same quantizer (PQ/LSQ) at matched total bytes",
+ "keep=0.25_prefix_pq": 0.6507,
+ "keep=0.25_prefix_lsq": 0.7249,
+ "keep=0.25_perm_pq": 0.7003,
+ "keep=0.25_perm_lsq": 0.7713,
+ "keep=0.125_prefix_pq": 0.4826,
+ "keep=0.125_prefix_lsq": 0.374,
+ "keep=0.125_perm_pq": 0.5604,
+ "keep=0.125_perm_lsq": 0.4568
+}

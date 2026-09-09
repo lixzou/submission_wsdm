@@ -1,0 +1,18 @@
+{
+ "ds_dir": "data/beir/fiqa",
+ "model": "bge",
+ "d": 768,
+ "reference": 0.4572,
+ "keep=0.500": {
+  "calib_grid": 0.444,
+  "uniform_grid": 0.4123
+ },
+ "keep=0.750": {
+  "calib_grid": 0.4448,
+  "uniform_grid": 0.4186
+ },
+ "keep=0.875": {
+  "calib_grid": 0.4511,
+  "uniform_grid": 0.418
+ }
+}

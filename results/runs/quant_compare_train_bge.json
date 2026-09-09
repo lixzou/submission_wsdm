@@ -1,0 +1,17 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "bge",
+ "d": 768,
+ "keep=0.500": {
+  "pca_quant": 0.8662222222222222,
+  "wpca_quant": 0.8572222222222223
+ },
+ "keep=0.250": {
+  "pca_quant": 0.8445555555555556,
+  "wpca_quant": 0.8452222222222222
+ },
+ "keep=0.125": {
+  "pca_quant": 0.787,
+  "wpca_quant": 0.7892222222222222
+ }
+}

@@ -1,0 +1,7 @@
+{
+ "model": "e5",
+ "reference": 0.6482,
+ "rpc_50_calibB2": 0.6045,
+ "pq_M": 0.6275,
+ "delta_pp": -2.3
+}

@@ -1,0 +1,18 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "bge",
+ "d": 768,
+ "mu_norm": 0.7638,
+ "B=1_uncentered_entropy_bits": 504.9,
+ "B=1_uncentered_saving": 0.3425,
+ "B=1_uncentered_recall": 0.8246,
+ "B=1_centered_entropy_bits": 767.8,
+ "B=1_centered_saving": 0.0002,
+ "B=1_centered_recall": 0.8001,
+ "B=2_uncentered_entropy_bits": 1056.0,
+ "B=2_uncentered_saving": 0.3125,
+ "B=2_uncentered_recall": 0.8657,
+ "B=2_centered_entropy_bits": 1457.8,
+ "B=2_centered_saving": 0.0509,
+ "B=2_centered_recall": 0.8312
+}

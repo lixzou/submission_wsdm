@@ -1,0 +1,16 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "e5",
+ "reference": 0.8369,
+ "calib": "train",
+ "n_cal": 809,
+ "B=1_turboquant": 0.7251,
+ "B=1_centered": 0.804,
+ "B=1_calib": 0.8065,
+ "B=2_turboquant": 0.8061,
+ "B=2_centered": 0.8173,
+ "B=2_calib": 0.8461,
+ "B=4_turboquant": 0.8353,
+ "B=4_centered": 0.8431,
+ "B=4_calib": 0.8419
+}

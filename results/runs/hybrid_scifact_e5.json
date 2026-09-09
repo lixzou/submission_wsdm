@@ -1,0 +1,17 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "e5",
+ "reference": 0.8369,
+ "keep=0.25_pca": 0.4549,
+ "keep=0.25_margin": 0.5844,
+ "keep=0.25_beta0.25": 0.5805,
+ "keep=0.25_beta0.5": 0.5838,
+ "keep=0.25_beta0.75": 0.5961,
+ "keep=0.25_cascade": 0.5547,
+ "keep=0.125_pca": 0.2597,
+ "keep=0.125_margin": 0.4791,
+ "keep=0.125_beta0.25": 0.3953,
+ "keep=0.125_beta0.5": 0.4612,
+ "keep=0.125_beta0.75": 0.4866,
+ "keep=0.125_cascade": 0.3643
+}

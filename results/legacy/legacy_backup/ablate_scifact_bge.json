@@ -1,0 +1,25 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "bge",
+ "d": 768,
+ "reference_full": 0.8652222222222222,
+ "orders": {},
+ "keep=0.500": {
+  "margin": 0.8502222222222221,
+  "variance": 0.8212222222222222,
+  "blockk2_margin": 0.7987777777777777,
+  "blockk4_margin": 0.819111111111111
+ },
+ "keep=0.250": {
+  "margin": 0.8185555555555556,
+  "variance": 0.7431111111111112,
+  "blockk2_margin": 0.7436666666666667,
+  "blockk4_margin": 0.6850555555555555
+ },
+ "keep=0.125": {
+  "margin": 0.7505555555555555,
+  "variance": 0.6432777777777778,
+  "blockk2_margin": 0.5749444444444445,
+  "blockk4_margin": 0.5491111111111112
+ }
+}

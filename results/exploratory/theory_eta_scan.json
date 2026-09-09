@@ -1,0 +1,50 @@
+{
+ "alpha=0.5_eta=1.0": {
+  "uniform": 0.95,
+  "tilt": 0.055
+ },
+ "alpha=0.5_eta=2.0": {
+  "uniform": 0.985,
+  "tilt": 0.045
+ },
+ "alpha=0.5_eta=4.0": {
+  "uniform": 0.97,
+  "tilt": 0.055
+ },
+ "alpha=0.5_eta=8.0": {
+  "uniform": 0.97,
+  "tilt": 0.025
+ },
+ "alpha=1.0_eta=1.0": {
+  "uniform": 0.9,
+  "tilt": 0.03
+ },
+ "alpha=1.0_eta=2.0": {
+  "uniform": 0.935,
+  "tilt": 0.03
+ },
+ "alpha=1.0_eta=4.0": {
+  "uniform": 0.93,
+  "tilt": 0.025
+ },
+ "alpha=1.0_eta=8.0": {
+  "uniform": 0.925,
+  "tilt": 0.05
+ },
+ "alpha=2.0_eta=1.0": {
+  "uniform": 0.44,
+  "tilt": 0.025
+ },
+ "alpha=2.0_eta=2.0": {
+  "uniform": 0.475,
+  "tilt": 0.035
+ },
+ "alpha=2.0_eta=4.0": {
+  "uniform": 0.48,
+  "tilt": 0.02
+ },
+ "alpha=2.0_eta=8.0": {
+  "uniform": 0.475,
+  "tilt": 0.005
+ }
+}

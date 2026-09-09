@@ -1,0 +1,11 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "e5",
+ "reference": 0.8369,
+ "frac": 0.5,
+ "keep": 0.125,
+ "seq": 0.3288,
+ "rand": 0.4764,
+ "div": 0.3708,
+ "hard": 0.4683
+}

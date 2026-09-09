@@ -1,0 +1,72 @@
+{
+ "nq": {
+  "e5": {
+   "B=1": {
+    "byte_saving": 0.4399
+   },
+   "B=2": {
+    "byte_saving": 0.3989
+   },
+   "B=4": {
+    "byte_saving": 0.3093
+   }
+  },
+  "bge": {
+   "B=1": {
+    "byte_saving": 0.2243
+   },
+   "B=2": {
+    "byte_saving": 0.2132
+   },
+   "B=4": {
+    "byte_saving": 0.1946
+   }
+  },
+  "mini": {
+   "B=1": {
+    "byte_saving": 0.012
+   },
+   "B=2": {
+    "byte_saving": 0.0569
+   },
+   "B=4": {
+    "byte_saving": 0.1024
+   }
+  }
+ },
+ "hotpotqa": {
+  "e5": {
+   "B=1": {
+    "byte_saving": 0.4376
+   },
+   "B=2": {
+    "byte_saving": 0.4063
+   },
+   "B=4": {
+    "byte_saving": 0.3176
+   }
+  },
+  "bge": {
+   "B=1": {
+    "byte_saving": 0.2337
+   },
+   "B=2": {
+    "byte_saving": 0.2193
+   },
+   "B=4": {
+    "byte_saving": 0.1952
+   }
+  },
+  "mini": {
+   "B=1": {
+    "byte_saving": 0.0165
+   },
+   "B=2": {
+    "byte_saving": 0.0603
+   },
+   "B=4": {
+    "byte_saving": 0.1048
+   }
+  }
+ }
+}

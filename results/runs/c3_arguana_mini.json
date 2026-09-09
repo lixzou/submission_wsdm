@@ -1,0 +1,21 @@
+{
+ "ds_dir": "data/beir_big/arguana",
+ "model": "mini",
+ "subset": 1000,
+ "d": 384,
+ "B=1": {
+  "fixed_bits": 384,
+  "entropy_bits": 361.65,
+  "byte_saving": 0.0582
+ },
+ "B=2": {
+  "fixed_bits": 768,
+  "entropy_bits": 697.24,
+  "byte_saving": 0.0921
+ },
+ "B=4": {
+  "fixed_bits": 1536,
+  "entropy_bits": 1342.46,
+  "byte_saving": 0.126
+ }
+}

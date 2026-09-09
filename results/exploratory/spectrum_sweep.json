@@ -1,0 +1,26 @@
+{
+ "alpha=0.0": {
+  "quant_rand_rot": 0.865,
+  "quant_pca_rot": 0.85,
+  "trunc_pca": 0.23,
+  "trunc_prefix": 0.1
+ },
+ "alpha=0.5": {
+  "quant_rand_rot": 0.855,
+  "quant_pca_rot": 0.795,
+  "trunc_pca": 0.395,
+  "trunc_prefix": 0.09
+ },
+ "alpha=1.0": {
+  "quant_rand_rot": 0.75,
+  "quant_pca_rot": 0.57,
+  "trunc_pca": 0.65,
+  "trunc_prefix": 0.04
+ },
+ "alpha=2.0": {
+  "quant_rand_rot": 0.305,
+  "quant_pca_rot": 0.1,
+  "trunc_pca": 0.61,
+  "trunc_prefix": 0.005
+ }
+}

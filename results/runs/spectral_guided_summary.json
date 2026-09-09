@@ -1,0 +1,163 @@
+{
+ "name": "spectral-guided PCA (retrieval-importance-weighted rotation)",
+ "idea": "\u5148\u7528 margin t-statistic \u8bc6\u522b\u68c0\u7d22\u91cd\u8981\u7ef4\u5ea6, \u518d\u505a (a) \u5168\u5c40 importance \u52a0\u6743 PCA, \u6216 (b) \u5148\u9009\u91cd\u8981\u5b50\u7a7a\u95f4\u518d\u5b50\u7a7a\u95f4 PCA",
+ "protocol": "scifact calib1.0 / nq5k calib0.7 judged-only, uncentered\u6295\u5f71, Recall@10, \u5168\u90e8 baseline \u4e0e canonical 4dp \u4e00\u81f4",
+ "results": [
+  {
+   "ds": "scifact",
+   "model": "e5",
+   "keep": "keep=0.250",
+   "pca": 0.7899,
+   "impw_pca": 0.8138,
+   "impw_method": "impw_pca_p1.0",
+   "imp_sel": 0.8138,
+   "sel_method": "imp_sel_wpca_K4x",
+   "gain_vs_pca": 2.4
+  },
+  {
+   "ds": "scifact",
+   "model": "e5",
+   "keep": "keep=0.125",
+   "pca": 0.7201,
+   "impw_pca": 0.7351,
+   "impw_method": "impw_pca_p0.5",
+   "imp_sel": 0.7201,
+   "sel_method": "imp_sel_pca_K8x",
+   "gain_vs_pca": 1.5
+  },
+  {
+   "ds": "scifact",
+   "model": "bge",
+   "keep": "keep=0.250",
+   "pca": 0.8446,
+   "impw_pca": 0.8619,
+   "impw_method": "impw_pca_p1.0",
+   "imp_sel": 0.8619,
+   "sel_method": "imp_sel_wpca_K4x",
+   "gain_vs_pca": 1.7
+  },
+  {
+   "ds": "scifact",
+   "model": "bge",
+   "keep": "keep=0.125",
+   "pca": 0.7871,
+   "impw_pca": 0.8032,
+   "impw_method": "impw_pca_p1.0",
+   "imp_sel": 0.8082,
+   "sel_method": "imp_sel_pca_K4x",
+   "gain_vs_pca": 2.1
+  },
+  {
+   "ds": "scifact",
+   "model": "mini",
+   "keep": "keep=0.250",
+   "pca": 0.7509,
+   "impw_pca": 0.7619,
+   "impw_method": "impw_pca_p2.0",
+   "imp_sel": 0.7539,
+   "sel_method": "imp_sel_pca_K2x",
+   "gain_vs_pca": 1.1
+  },
+  {
+   "ds": "scifact",
+   "model": "mini",
+   "keep": "keep=0.125",
+   "pca": 0.6341,
+   "impw_pca": 0.6486,
+   "impw_method": "impw_pca_p2.0",
+   "imp_sel": 0.666,
+   "sel_method": "imp_sel_wpca_K4x",
+   "gain_vs_pca": 3.2
+  },
+  {
+   "ds": "scifact",
+   "model": "bgem3",
+   "keep": "keep=0.250",
+   "pca": 0.7192,
+   "impw_pca": 0.7416,
+   "impw_method": "impw_pca_p2.0",
+   "imp_sel": 0.7738,
+   "sel_method": "imp_sel_pca_K2x",
+   "gain_vs_pca": 5.5
+  },
+  {
+   "ds": "scifact",
+   "model": "bgem3",
+   "keep": "keep=0.125",
+   "pca": 0.6726,
+   "impw_pca": 0.7016,
+   "impw_method": "impw_pca_p2.0",
+   "imp_sel": 0.7482,
+   "sel_method": "imp_sel_wpca_K4x",
+   "gain_vs_pca": 7.6
+  },
+  {
+   "ds": "scifact",
+   "model": "qwen3",
+   "keep": "keep=0.250",
+   "pca": 0.8049,
+   "impw_pca": 0.8132,
+   "impw_method": "impw_pca_p2.0",
+   "imp_sel": 0.8426,
+   "sel_method": "imp_sel_pca_K2x",
+   "gain_vs_pca": 3.8
+  },
+  {
+   "ds": "scifact",
+   "model": "qwen3",
+   "keep": "keep=0.125",
+   "pca": 0.7719,
+   "impw_pca": 0.8046,
+   "impw_method": "impw_pca_p2.0",
+   "imp_sel": 0.8346,
+   "sel_method": "imp_sel_wpca_K4x",
+   "gain_vs_pca": 6.3
+  },
+  {
+   "ds": "nq5k",
+   "model": "bgem3",
+   "keep": "keep=0.250",
+   "pca": 0.9318,
+   "impw_pca": 0.947,
+   "impw_method": "impw_pca_p2.0",
+   "imp_sel": 0.9646,
+   "sel_method": "imp_sel_pca_K2x",
+   "gain_vs_pca": 3.3
+  },
+  {
+   "ds": "nq5k",
+   "model": "bgem3",
+   "keep": "keep=0.125",
+   "pca": 0.9394,
+   "impw_pca": 0.9508,
+   "impw_method": "impw_pca_p2.0",
+   "imp_sel": 0.9583,
+   "sel_method": "imp_sel_pca_K4x",
+   "gain_vs_pca": 1.9
+  },
+  {
+   "ds": "nq5k",
+   "model": "qwen3",
+   "keep": "keep=0.250",
+   "pca": 0.8333,
+   "impw_pca": 0.8788,
+   "impw_method": "impw_pca_p2.0",
+   "imp_sel": 0.904,
+   "sel_method": "imp_sel_pca_K2x",
+   "gain_vs_pca": 7.1
+  },
+  {
+   "ds": "nq5k",
+   "model": "qwen3",
+   "keep": "keep=0.125",
+   "pca": 0.7904,
+   "impw_pca": 0.8561,
+   "impw_method": "impw_pca_p2.0",
+   "imp_sel": 0.9015,
+   "sel_method": "imp_sel_pca_K4x",
+   "gain_vs_pca": 11.1
+  }
+ ],
+ "conclusion": "14/14 \u8bbe\u7f6e > \u7eafPCA, \u5e73\u5747 +4.2pp (scifact +3.5, nq5k +5.8); 1024d \u6a21\u578b\u589e\u76ca\u6700\u5927 (+1.9~+11.1pp)",
+ "mechanism": "\u52a0\u6743PCA\u4e3b\u65b9\u5411\u627f\u8f7d\u7684\u68c0\u7d22\u91cd\u8981\u6027 \u2248 \u666e\u901aPCA \u7684 1.7-1.9x (scifact e5)"
+}

@@ -1,0 +1,37 @@
+{
+ "ds_dir": "/ssd1/zoulixin/tencent_previous_compression/experiments/baseline/data/nq_sub200k",
+ "model": "e5",
+ "d": 768,
+ "n_train": 800,
+ "n_test": 2652,
+ "reference_recall": 0.7879,
+ "reference_ndcg": 0.6061,
+ "seed": 0,
+ "B": 2,
+ "keep=0.875": {
+  "pq": {
+   "recall": 0.7786,
+   "ndcg": 0.5984
+  },
+  "opq": {
+   "recall": 0.782,
+   "ndcg": 0.5992
+  },
+  "itq": {
+   "recall": 0.5701,
+   "ndcg": 0.4179
+  },
+  "scalar": {
+   "recall": 0.6681,
+   "ndcg": 0.4971
+  },
+  "tq": {
+   "recall": 0.7272,
+   "ndcg": 0.5467
+  },
+  "reco": {
+   "recall": 0.7802,
+   "ndcg": 0.5957
+  }
+ }
+}

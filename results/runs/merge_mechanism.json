@@ -1,0 +1,13 @@
+{
+ "mechanism": {
+  "192": {
+   "plain_pca_imp_carry": 1761.80126953125,
+   "weighted_pca_imp_carry": 2921.6796875
+  },
+  "96": {
+   "plain_pca_imp_carry": 935.4443359375,
+   "weighted_pca_imp_carry": 1489.9508056640625
+  }
+ },
+ "note": "\u4e3b\u65b9\u5411importance\u603b\u627f\u8f7d: \u52a0\u6743PCA > \u666e\u901aPCA"
+}

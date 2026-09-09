@@ -1,0 +1,18 @@
+{
+ "ds_dir": "data/beir/fiqa",
+ "model": "mini",
+ "d": 384,
+ "reference": 0.4413,
+ "keep=0.500": {
+  "calib_grid": 0.4272,
+  "uniform_grid": 0.3853
+ },
+ "keep=0.750": {
+  "calib_grid": 0.4384,
+  "uniform_grid": 0.4083
+ },
+ "keep=0.875": {
+  "calib_grid": 0.4324,
+  "uniform_grid": 0.4057
+ }
+}

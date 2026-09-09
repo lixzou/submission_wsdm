@@ -1,0 +1,11 @@
+{
+ "ds_dir": "data/beir_big/nq",
+ "model": "mini",
+ "d": 384,
+ "n_docs": 2000000,
+ "reference": 0.5915,
+ "full_pqM96": 0.5815,
+ "perm_0.5_pqM48": 0.5598,
+ "perm_0.25_pqM24": 0.5053,
+ "perm_0.125_pqM12": 0.368
+}

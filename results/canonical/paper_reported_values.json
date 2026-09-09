@@ -1,0 +1,220 @@
+{
+  "RaBitQ": {
+    "paper_title": "RaBitQ: Quantizing High-Dimensional Vectors with a Theoretical Error Bound (SIGMOD 2024)",
+    "settings": {
+      "datasets": [
+        "Msong-420d-992k",
+        "SIFT-128d-1M",
+        "DEEP-256d-1M",
+        "Word2Vec-300d-1M",
+        "GIST-960d-1M",
+        "Image-150d-2.34M"
+      ],
+      "params": "eps0=1.9, Bq=4 fixed",
+      "eval": "single-thread query, IVF+rerank 500/1000/2500",
+      "code_url": "https://github.com/gaoj0017/RaBitQ"
+    },
+    "values": [
+      {
+        "metric": "max_relative_error",
+        "setting": "D-bit code, all datasets",
+        "paper_value": "<=40%",
+        "confidence": "原文",
+        "note": "vs PQx4fs ~100% on most"
+      },
+      {
+        "metric": "avg_relative_error_MSong_PQ",
+        "setting": "MSong, PQ 16x",
+        "paper_value": ">50%",
+        "confidence": "原文"
+      },
+      {
+        "metric": "recall_MSong_PQ_rerank",
+        "setting": "MSong, PQ with rerank",
+        "paper_value": "<60%",
+        "confidence": "原文"
+      },
+      {
+        "metric": "speedup_single_vector",
+        "setting": "vs PQ LUT",
+        "paper_value": "3x",
+        "confidence": "原文"
+      }
+    ]
+  },
+  "ExtendedRaBitQ": {
+    "paper_title": "Practical and Asymptotically Optimal Quantization of High-Dimensional Vectors (SIGMOD 2025)",
+    "settings": {
+      "datasets": [
+        "MSong",
+        "Youtube-1024d",
+        "OpenAI-1536",
+        "OpenAI-3072",
+        "Word2Vec",
+        "GIST",
+        "MSMARCO-113.5M-1024d"
+      ],
+      "params": "B in 1..10, IVF 4096 clusters (MSMARCO 262144)",
+      "eval": "single-thread, no-rerank recall@100",
+      "code_url": "https://github.com/VectorDB-NTU/Extended-RaBitQ"
+    },
+    "values": [
+      {
+        "metric": "recall_no_rerank",
+        "setting": "B=4 (8x)",
+        "paper_value": ">90% all datasets",
+        "confidence": "原文"
+      },
+      {
+        "metric": "recall_no_rerank",
+        "setting": "B=5 (6.4x)",
+        "paper_value": ">95% all datasets",
+        "confidence": "原文"
+      },
+      {
+        "metric": "recall_no_rerank",
+        "setting": "B=7 (4.5x)",
+        "paper_value": ">99% all datasets",
+        "confidence": "原文"
+      },
+      {
+        "metric": "storage",
+        "setting": "MSMARCO 113.5M, B=4",
+        "paper_value": "56.94 GB (7.6x, from 433.47GB)",
+        "confidence": "原文"
+      },
+      {
+        "metric": "error_formula",
+        "setting": "any",
+        "paper_value": "eps < 5.75 * 2^-B / sqrt(D)",
+        "confidence": "原文"
+      }
+    ]
+  },
+  "PQ_OPQ": {
+    "paper_title": "Product Quantization for Nearest Neighbor Search (TPAMI 2011) / Optimized PQ (TPAMI 2014)",
+    "settings": {
+      "datasets": [
+        "SIFT1M-128d"
+      ],
+      "params": "m=8 k=256, w probes 1..64",
+      "eval": "ADC recall@1/@10",
+      "code_url": "faiss (official)"
+    },
+    "values": [
+      {
+        "metric": "recall_curve",
+        "setting": "SIFT1M",
+        "paper_value": "to extract from paper figures",
+        "confidence": "图估算",
+        "note": "Phase 3.1 提取"
+      }
+    ]
+  },
+  "TurboQuant": {
+    "paper_title": "TurboQuant (arXiv 2504.19874, ICLR 2026) + Qdrant engineering",
+    "settings": {
+      "datasets": [
+        "Qdrant 10 real embedding datasets",
+        "DBpedia-OpenAI3-1536/3072d-100K"
+      ],
+      "params": "4/2/1.5/1 bit (8x/16x/21x/32x), HNSW m=16 ef=128",
+      "eval": "Recall@10",
+      "code_url": "qdrant built-in (Rust); paper code TBD"
+    },
+    "values": [
+      {
+        "metric": "recall_4bit",
+        "setting": "TQ 4-bit (8x)",
+        "paper_value": "~SQ 4x +/-2pp",
+        "confidence": "原文"
+      },
+      {
+        "metric": "recall_2bit_vs_BQ",
+        "setting": "TQ 2-bit (16x)",
+        "paper_value": "+9~24pp over BQ 2-bit",
+        "confidence": "原文"
+      },
+      {
+        "metric": "recall_1bit_vs_BQ",
+        "setting": "TQ 1-bit (32x)",
+        "paper_value": "+9~21pp over BQ 1-bit",
+        "confidence": "原文"
+      },
+      {
+        "metric": "mse_b1_b4",
+        "setting": "unit sphere",
+        "paper_value": "0.36/0.117/0.03/0.009",
+        "confidence": "原文"
+      }
+    ]
+  },
+  "SAQ": {
+    "paper_title": "SAQ: Pushing the Limits of Vector Quantization through Code Adjustment and Dimension Segmentation (arXiv 2509.12086, SIGMOD'26)",
+    "settings": {
+      "datasets": [
+        "SIFT1M-128d"
+      ],
+      "params": "IVF 4096, nprobe=200",
+      "eval": "recall@k / QPS / avg total relative error",
+      "code_url": "https://github.com/howarlii/saq"
+    },
+    "values": [
+      {
+        "metric": "recall",
+        "setting": "SIFT1M B=1",
+        "paper_value": "0.137",
+        "confidence": "原文",
+        "note": "官方代码实测复核一致（baseline_anchors.md, GPU06 官方二进制）"
+      },
+      {
+        "metric": "recall",
+        "setting": "SIFT1M B=2",
+        "paper_value": "0.195",
+        "confidence": "原文",
+        "note": "官方代码实测一致"
+      },
+      {
+        "metric": "recall",
+        "setting": "SIFT1M B=4",
+        "paper_value": "0.311",
+        "confidence": "原文",
+        "note": "官方代码实测一致"
+      },
+      {
+        "metric": "recall",
+        "setting": "SIFT1M B=8",
+        "paper_value": "0.534",
+        "confidence": "原文",
+        "note": "官方代码实测一致"
+      },
+      {
+        "metric": "method_claim",
+        "setting": "all",
+        "paper_value": "维度分段+DP 位分配+CAQ 码调整; 无熵编码段; 无排序失真目标",
+        "confidence": "原文",
+        "note": "与 RATC 差异见 neighbor_verification_SAQ_CRISP.md §1.2"
+      }
+    ]
+  },
+  "PQP": {
+    "paper_title": "Optimizing Vector Embedding Storage (JAICC 2026)",
+    "settings": {
+      "note": "no code, small journal, numbers inconsistent"
+    },
+    "values": [
+      {
+        "metric": "compression_claim",
+        "paper_value": "256x <3% recall loss (abstract); body: binary 118x / PQ 43x",
+        "confidence": "原文",
+        "note": "口径矛盾"
+      },
+      {
+        "metric": "rag_EM",
+        "setting": "NQ/HotpotQA",
+        "paper_value": "EM drop 1.8pp (48.2->47.3) with rerank; 6.4pp without",
+        "confidence": "原文"
+      }
+    ]
+  }
+}

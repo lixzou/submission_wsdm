@@ -1,0 +1,48 @@
+{
+ "ds_dir": "data/beir/scifact",
+ "model": "e5",
+ "keep": 0.5,
+ "B": 2,
+ "n_train": 809,
+ "n_test": 1109,
+ "reference": 0.8369,
+ "prefix": 0.7042,
+ "spectrum_only": true,
+ "fracs": {
+  "0.03": {
+   "n_cal": 24,
+   "reco": 0.8106,
+   "gain_pct": 10.6
+  },
+  "0.06": {
+   "n_cal": 48,
+   "reco": 0.8147,
+   "gain_pct": 11.1
+  },
+  "0.10": {
+   "n_cal": 80,
+   "reco": 0.8112,
+   "gain_pct": 10.7
+  },
+  "0.25": {
+   "n_cal": 202,
+   "reco": 0.8281,
+   "gain_pct": 12.4
+  },
+  "0.50": {
+   "n_cal": 404,
+   "reco": 0.8219,
+   "gain_pct": 11.8
+  },
+  "0.70": {
+   "n_cal": 566,
+   "reco": 0.8347,
+   "gain_pct": 13.1
+  },
+  "1.00": {
+   "n_cal": 809,
+   "reco": 0.8119,
+   "gain_pct": 10.8
+  }
+ }
+}

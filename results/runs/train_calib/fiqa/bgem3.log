@@ -1,0 +1,5 @@
+bgem3: train 3000 queries, test 6648
+  keep=0.5 {'reco': 0.4676, 'pq': 0.4547, 'opq': 0.4169, 'itq': 0.2663, 'scalar': 0.3506, 'tq': 0.4314}
+  keep=0.75 {'reco': 0.4759, 'pq': 0.4659, 'opq': 0.4654, 'itq': 0.2643, 'scalar': 0.4064, 'tq': 0.4563}
+  keep=0.875 {'reco': 0.4775, 'pq': 0.4739, 'opq': 0.4753, 'itq': 0.2482, 'scalar': 0.4251, 'tq': 0.4647}
+SAVED /ssd1/zoulixin/tencent_previous_compression/experiments/baseline/gap_results/train_calib/fiqa/bgem3.json

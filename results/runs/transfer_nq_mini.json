@@ -1,0 +1,51 @@
+{
+ "model": "mini",
+ "d": 384,
+ "n_train": 800,
+ "n_test": 2652,
+ "source": "scifact-train",
+ "target": "nq_sub200k",
+ "seed": 0,
+ "keep=0.500": {
+  "prefix": {
+   "recall": 0.6899,
+   "ndcg": 0.5039
+  },
+  "cross": {
+   "recall": 0.7218,
+   "ndcg": 0.53
+  },
+  "in": {
+   "recall": 0.7222,
+   "ndcg": 0.5292
+  }
+ },
+ "keep=0.750": {
+  "prefix": {
+   "recall": 0.72,
+   "ndcg": 0.5283
+  },
+  "cross": {
+   "recall": 0.7287,
+   "ndcg": 0.5376
+  },
+  "in": {
+   "recall": 0.7283,
+   "ndcg": 0.5377
+  }
+ },
+ "keep=0.875": {
+  "prefix": {
+   "recall": 0.7268,
+   "ndcg": 0.5337
+  },
+  "cross": {
+   "recall": 0.7291,
+   "ndcg": 0.5376
+  },
+  "in": {
+   "recall": 0.7288,
+   "ndcg": 0.5374
+  }
+ }
+}

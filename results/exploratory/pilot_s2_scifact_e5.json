@@ -1,0 +1,30 @@
+{
+ "avg_bits=8": {
+  "uniform": 0.8403,
+  "margin_block": 0.8403,
+  "pca_uniform": 0.8164,
+  "var_block": 0.8403,
+  "ratc_s1s2": 0.8403
+ },
+ "avg_bits=4": {
+  "uniform": 0.8269,
+  "margin_block": 0.6666,
+  "pca_uniform": 0.8147,
+  "var_block": 0.7207,
+  "ratc_s1s2": 0.6666
+ },
+ "avg_bits=2": {
+  "uniform": 0.7226,
+  "margin_block": 0.5805,
+  "pca_uniform": 0.6877,
+  "var_block": 0.4616,
+  "ratc_s1s2": 0.5805
+ },
+ "avg_bits=1": {
+  "uniform": 0.7635,
+  "margin_block": 0.5034,
+  "pca_uniform": 0.6538,
+  "var_block": 0.2497,
+  "ratc_s1s2": 0.5034
+ }
+}

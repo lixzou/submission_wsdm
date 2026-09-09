@@ -1,0 +1,8 @@
+{
+ "ds_dir": "data/beir_big/nq",
+ "model": "e5",
+ "d": 768,
+ "reference": 0.241,
+ "protocol": "ITQ binary (faiss ITQTransform), d bits = d/8 bytes = 32x",
+ "itq_binary_32x": 0.2367
+}

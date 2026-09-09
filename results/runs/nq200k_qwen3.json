@@ -1,0 +1,89 @@
+{
+ "ds_dir": "/ssd1/zoulixin/tencent_previous_compression/experiments/baseline/data/nq_sub200k",
+ "model": "qwen3",
+ "d": 1024,
+ "n_train": 800,
+ "n_test": 2652,
+ "reference_recall": 0.6219,
+ "reference_ndcg": 0.4504,
+ "seed": 0,
+ "B": 2,
+ "keep=0.500": {
+  "pq": {
+   "recall": 0.6095,
+   "ndcg": 0.4385
+  },
+  "opq": {
+   "recall": 0.6077,
+   "ndcg": 0.438
+  },
+  "itq": {
+   "recall": 0.5781,
+   "ndcg": 0.4102
+  },
+  "scalar": {
+   "recall": 0.4984,
+   "ndcg": 0.3466
+  },
+  "tq": {
+   "recall": 0.5698,
+   "ndcg": 0.4107
+  },
+  "reco": {
+   "recall": 0.6189,
+   "ndcg": 0.4454
+  }
+ },
+ "keep=0.750": {
+  "pq": {
+   "recall": 0.6133,
+   "ndcg": 0.4425
+  },
+  "opq": {
+   "recall": 0.613,
+   "ndcg": 0.4409
+  },
+  "itq": {
+   "recall": 0.6014,
+   "ndcg": 0.4287
+  },
+  "scalar": {
+   "recall": 0.5706,
+   "ndcg": 0.4037
+  },
+  "tq": {
+   "recall": 0.5952,
+   "ndcg": 0.4273
+  },
+  "reco": {
+   "recall": 0.627,
+   "ndcg": 0.4509
+  }
+ },
+ "keep=0.875": {
+  "pq": {
+   "recall": 0.6143,
+   "ndcg": 0.4414
+  },
+  "opq": {
+   "recall": 0.6113,
+   "ndcg": 0.4395
+  },
+  "itq": {
+   "recall": 0.606,
+   "ndcg": 0.4308
+  },
+  "scalar": {
+   "recall": 0.5841,
+   "ndcg": 0.4141
+  },
+  "tq": {
+   "recall": 0.6,
+   "ndcg": 0.4293
+  },
+  "reco": {
+   "recall": 0.6266,
+   "ndcg": 0.4537
+  }
+ }
+}
